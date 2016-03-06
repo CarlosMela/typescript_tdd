@@ -26,7 +26,10 @@
         "lib/Euler.ts",
         "lib/Numbers.ts",
         "spec/NumbersSpec.ts",
-        "typings/jasmine/jasmine.d.ts"
+        "typings/browser.d.ts",
+        "typings/browser/ambient/jasmine/jasmine.d.ts",
+        "typings/main.d.ts",
+        "typings/main/ambient/jasmine/jasmine.d.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

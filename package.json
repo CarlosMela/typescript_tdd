@@ -1,17 +1,19 @@
 {
-	"name": "typescript_tdd",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"dependencies": {
-		"typescript": "^1.7.5"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"compile": "node_modules\\.bin\\tsc spec\\NumbersSpec.ts --module commonjs",
-		"test": "node_modules\\.bin\\jasmine run spec/*Spec.js",
-		"run": "node_modules\\.bin\\tsc spec\\NumbersSpec.ts --module commonjs & node_modules\\.bin\\jasmine run spec/*Spec.js"
-	},
-	"author": "",
-	"license": "ISC"
+  "name": "typescript_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "typescript": "^1.7.5",
+    "typings": "^0.6.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node_modules\\.bin\\tsc spec\\NumbersSpec.ts --module commonjs",
+    "test": "node_modules\\.bin\\jasmine run spec/*Spec.js",
+    "run": "node_modules\\.bin\\tsc spec\\NumbersSpec.ts --module commonjs & node_modules\\.bin\\jasmine run spec/*Spec.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
